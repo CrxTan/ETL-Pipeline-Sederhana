@@ -17,16 +17,16 @@ class LoadConfig:
     
     # Google Sheets settings
     CREDENTIALS_FILE: str = 'google-sheets-api.json'
-    SPREADSHEET_ID: str = '1szvrIQObT_Ln5Ncv21OVeTOgZ2EQ7jut3BBJCKnW0oY'
+    SPREADSHEET_ID: str = ''
     WORKSHEET_NAME: str = 'Cleaned Data'
     
     # PostgreSQL settings
-    DB_NAME: str = 'fashion_catalog'
-    DB_USER: str = 'fatur' 
-    DB_PASSWORD: str = 'gataumauisiapa' 
-    DB_HOST: str = 'localhost'
-    DB_PORT: int = 5432
-    TABLE_NAME: str = 'products'
+    DB_NAME: str = 'db_name'
+    DB_USER: str = 'user' 
+    DB_PASSWORD: str = 'loremipsum' 
+    DB_HOST: str = ''
+    DB_PORT: int = 5555
+    TABLE_NAME: str = ''
 
 class DataLoader:
     """Handles loading of transformed data to various destinations."""
